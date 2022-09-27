@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap');
+
+body {
+    background: rgb(5, 1, 79);
+    background: linear-gradient(9deg, rgba(5, 1, 79, 1) 0%, rgba(58, 54, 136, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Open Sans';
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-weight: 500;
+}
+h2 {
+    font-weight: 300;
+}
+
+#count-el {
+    color: white;
+    font-size: 50px;
+}
+
+.count-container {
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.button-container {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#increment-btn {
+    margin-right: 10px;
+    padding: 7px 10px 7px 10px;
+    background-color: rgba(5, 1, 79, 1);
+    color: white;
+    transition: 250ms ease-in-out;
+    border: 1px solid rgb(5, 1, 100, 1);
+    border-radius: 3px;
+}
+
+#increment-btn:hover {
+    transform: scale(1.1)
+}
+
+#dec-btn {
+    background-color: whitesmoke;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 7px 10px 7px 10px;
+    margin-left: 10px;
+    transition: 250ms ease-in-out;
+}
+
+#dec-btn:hover {
+    transform: scale(1.1)
+}
+.save-contianer {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0px 52px 30px 52px;
+    margin-top: 30px;
+}
+.counter-saved {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#save-btn {
+    background-color: whitesmoke;
+    border: 1px solid rgba(5, 1, 79, 1);
+    border-radius: 3px;
+    padding: 7px 10px 7px 10px;
+    background-color: rgba(5, 1, 79, 1);
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: 250ms ease-in-out;
+    
+}
+#save-btn:hover {
+    transform: scale(1.1);
+}
+
+.saved-counters-container{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 30px;
+    padding: 0px 45px 30px 45px;
+    color:rgba(5, 1, 79, 1);
+    font-weight: bold;
+    min-width: 203px;
+    max-width: 203px;
+}
